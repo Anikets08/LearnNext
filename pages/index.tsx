@@ -22,7 +22,7 @@ export default function Home() {
       }
        `
      }</style>
-     <button onClick={()=>router.push({pathname:'/nextpage'})}>Take Me to next page</button>
+     <button onClick={()=>router.push({pathname:'/nextpage',query:{name:"aniket"}})}>Take Me to next page</button>
      <button onClick={()=>router.reload()}>Refresh Page</button>
    </div>
    
