@@ -1,0 +1,14 @@
+.sass {
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
+  color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    border-bottom: 3px solid pink;
+    padding-bottom: 20px;
+  }
+}
